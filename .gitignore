@@ -1,0 +1,27 @@
+# Local secrets and configuration
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+yolo_env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# YOLO training output and raw datasets
+runs/
+train/
+test/
+valid/
+
+# Model weights (publish separately as release assets, subject to license)
+*.pt
+*.pth
+
+# Local / temporary files
+*.log
+.DS_Store
+Thumbs.db
